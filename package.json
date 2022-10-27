@@ -1,0 +1,23 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "jest":{
+    "testPathIgnorePatterns": ["/specs/"]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@applitools/eyes-playwright": "^1.12.7",
+    "jest": "^29.2.2",
+    "playwright": "^1.27.1"
+  }
+}
